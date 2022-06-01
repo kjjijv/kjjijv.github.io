@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="applicable-device" content="pc,mobile" />
+    <title>新闻详细页</title>
+    
+    
+    <link rel="shortcut icon" href=" favicon.ico" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/glide.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/online.css"rel="stylesheet" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/jquery.glide.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="js/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+
+<body>
+    
+    <header>
+
+        <div class="topBox">
+            <div class="borderBottom">
+                <div class="container">
+                    <div class="welcomeBox" id="top">欢迎光临诺尔医疗官方网站</div>
+ 
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-8 logo"><a href="index.html"><img src="image/logo.png" alt="诺尔医疗官方" /></a></div>
+
+                    <div class="col-xs-6 col-sm-3 col-md-2">
+                        <div class="address"></div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-3 col-md-2">
+                        <div class="tel">
+                            <img src="image/tel.gif" alt="" /><br />0755-23214194
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-static-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>             
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="index.html">网站首页</a></li>
+
+                        <li class="dropdown">
+                            <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">关于我们</a><a href="#" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down btn-xs"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class='' href='about.html'>公司简介</a></li>
+                                <li><a class='' href='contact.html'>联系我们</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="article.html" class="dropdown-toggle" data-toggle="dropdown">新闻中心</a><a href="#" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down btn-xs"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class='' href='article.html'>公司新闻</a></li>
+                                <li><a class='' href='album.html'>公司相册</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="product.html" class="dropdown-toggle" data-toggle="dropdown">产品中心</a><a href="#" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down btn-xs"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class='' href='product_detail.html'>一代3.0T磁共振兼容电极</a><span>+</span>
+                                   
+                                </li>
+                                <li><a class='' href='product.html'>二代Macro=Micro电极</a><span>+</span>
+                                  
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="project.html">项目中心</a></li>
+                        <li><a href="comment.html">招聘信息</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    
+    <!-- Banner -->
+    <div class="banner">
+        <div class="slider">
+            <ul class="slider__wrapper">
+                <li class="slider__item"><a target="_blank" title="1" href="" style="background-image:url(image/1.jpg)"><img src="image/banner-2.png" alt="诺尔医疗官方" /></a></li>
+                <li class="slider__item"><a target="_blank" title="2" href="" style="background-image:url(image/001.png)"><img src="image/banner-2.png" alt="诺尔医疗官方" /></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        var glide = $('.slider').glide();
+    </script>
+    
+    <!-- 内容 -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-8 col-md-9" id="rightBox">
+
+                <div class="positionBox">
+                    <div class="titleBar">
+                        <h1>当前位置</h1>
+                        <span></span>
+                        <a href="index.html">首页</a> > <a href="article.html">新闻中心</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 pad">
+
+                    <div class="detailTitle" style="border:0px; background:none; font-size:20px; color:#000;">
+                        脑科学与脑机接口创新企业诺尔医疗NeuroEchos获得亿元融资
+                    </div>
+
+                    <div class="detailTime">
+                        2022-02-22 
+                    </div>
+                
+                    <div class="detailContent">
+                
+                        <span style="color:#505050;font-family:Verdana, Arial, Helvetica, sans-serif;font: size 16px;line-height:22px;">
+                                                        
+                            2022年2月22日，诺尔医疗NeuroEchos正式完成由山蓝资本领投，同威资本和深圳高新投联领投的A轮融资，行远致同担任本轮融资独家财务顾问。
+                            <br /><br />
+                            诺尔2017年8月24日成立于中国深圳，截止目前已累计完成5轮融资，往轮机构股东包括基石资本、阳和长富、澳银资本、元生创投、华翼壹号等多家投资机构投资。其中，基石资本、澳银资本、元生创投、深圳高新投、同威资本均为深圳市天使母基金的战略关联基金，也使得诺尔NeuroEchos成为深圳市天使母基金自2018年成立以来，被连续被投家数最多的脑科学方向科创企业。
+                            <br /><br />
+                            过去4年多时间里，诺尔紧密围绕具有“三基”属性（基础研究、基础设施、基础技术）的关键底层要素，凭借其在SEEG、大数据、人工智能等关键领域扎实、严谨、高效的产业化过程，在脑科学和类脑人工智能方向，迅速成长成为“立足深圳、辐射全国、面向全球”的本土脑科学赛道的头部种子选手。
+                            <br /><br />
+                            诺尔医疗CEO杨欢表示：“将利用本轮融资所获资金，持续推动诺尔多款产品在FDA\CE\NMPA的产学研、研发、临床、认证与商业化，同时加快系列SEEG智能化工具研发和‘诺极佳’超级工厂（NeuroGIGE）的产业化落地。诺尔将在脑科学领域，特别是‘保护脑’领域中的‘基础接口、基础技术、基础设施’开展底层布局，构建‘全球最好深脑电极（IOT端）、最好的脑电记录工具（SaaS平台、）最好的脑电分析引擎（AI算法）’，助力脑科学和神经疾病领域大规模深脑数据（TB级别）的基础创新能力，赋能领域内科学家和临床专家加快探索潜在神经系统疾病的发病机制；在提高诸如癫痫诊疗效率的同时，也为更多脑部功能神经疾病提供更为高效的智能化工具矩阵。”
+                            <br /><br />
+                            山蓝资本执行董事顾胜寒表示：“外科切除性手术是针对药物难治性癫痫的一种重要治疗手段，而SEEG技术作为术前精准定位致痫灶的最佳方案，近年来在欧美以及中国的临床端均得到了快速的推广应用。诺尔医疗以性能卓越、功能全面、具备显著差异化优势的SEEG产品为起点，广泛布局脑部疾病相关创新医疗器械以及AI与SAAS工具。山蓝有幸参与本轮融资，我们看好专业扎实、心态开放、具备全球视野的诺尔团队，也期待未来充分发挥山蓝的产业资源，助力诺尔早日成为脑科学领域领先的软硬件综合解决方案平台。”
+                            <br /><br />
+                            同威合伙人郑雯文表示：“同威投资团队早在10年前即持续关注脑科学领域，深刻理解脑科学方向产业化的痛点和难点，与一般普遍认为无创脑机接口技术是产业未来所不同，同威投资团队一直认为侵入式脑机接口技术是人类攻克大脑黑盒的重要路径，这里不仅是工程技术解决方案的逻辑，更是如何‘更为直接、更高质量、更大规模’获得人类大脑底层数据的逻辑。这也是同威资本看重诺尔团队的一个重要因素，诺尔团队天然包含的TMT基因，在实现‘更好、更快、更大规模’，承载脑科学数字化方面，有着比其他众多硬件类医疗创业项目无法比拟的产业优势，同时也作为深圳天使母基金的战略关联方，持续加码深圳本土优势创新企业也是必然选项。”
+                            <br /><br />
+                            深圳高新投投资负责人吕卓燏表示：“诺尔医疗NeuroEchos，不仅仅是秉承服务中小微科技型企业的宗旨，诺尔作为深圳十四五期间大力扶持的‘20+8未来产业’中的脑科学与类脑人工智能领域的佼佼者，也是深圳本土从无到有成长起来的高新技术企业，高新投也将从多角度继续持续和赋能，并期待诺尔能成长成为脑科学领域的全球知名企业。”
+                            <br /><br />
+                            2021年12月31日，诺尔提出未来3-5年的全球化发展战略——“全球品质、开放创新、用户满意、组织先进、业界领先”与诺尔成立之初所提出的“诺行天下，尔见未来”相互呼应，相信诺尔未来通过脑科学领域的持续创新，让更多功能神经疾病的患者能看到生命的未来，同时，在2022年2月22日这样一个千载难逢的有“爱”的日子里，不负众望，顺利完成A轮融资，也将预示着其成为中国脑科学领域一颗冉冉升起的新星。
+                            <div style=' text-align:center'>
+                                <img src="image/news/蛋糕.png" alt="" width="600">
+                                <h5>分贝通赠送蛋糕</h5>
+                            </div>
+                            <br /><br />
+
+
+                        </span>
+
+                    </div>
+                
+                    <div class="otherPageBox">
+                
+                        <div class="col-xs-9 col-sm-9 col-md-9 pad">
+                            <div class='otherPage'>
+                                <div class='prevBox'>上一个：<a href='article_detail.html' title=""></a></div>
+                                <div class='nextBox'>下一个：<a href='article_detail1.html' title="诺尔医疗参加2021年中国（深圳）天使母基金投资峰会">诺尔医疗参加2021年中国（深圳）天使母基金投资峰会</a></div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-3 pad">
+                            <a class="back" href="javascript:history.go(-1)">返回</a>
+                        </div>
+
+                    </div>
+                
+                    <div class="aboutProduct newsBox">
+                        <div class="titleBar">
+                            <h1>相关新闻</h1>
+                            <span>&nbsp</span>
+                        </div>
+                        <ul class="newsList">
+                        
+                            <li><a href="article_detail2.html" title="诺尔医疗成立四周年">诺尔医疗成立四周年</a></li>
+                            <li><a href="article_detail3.html" title="诺尔医疗获3000万元Pre-A轮融资">诺尔医疗获3000万元Pre-A轮融资</a></li>
+                              
+                        </ul>
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+
+                <div class="navigationBox" id="classification">
+                    <div class="titleBar">
+                        <h1>导航栏目</h1>
+                        <span></span>
+                    </div>
+                    <div class="list">
+                        <ul id="firstpane">
+                            <li><a class='firstSelected selected' href='article.html'>公司新闻</a></li>
+                            <li><a class='' href='album.html'>公司相册</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="leftContactBox">     
+                    <div class="content"> 
+                        <p style="padding-top:20px;">联系人：胡经理</p>
+                        <p>电话：0755-23214194</p>
+                        <p>邮箱：jianping.hu@neurox.cn</p>
+                        <p>地址： 广东省深圳市宝安区福海街道新和社区富桥第三区工业区华大B栋401</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+    
+        <div class="copyright">
+            <p>
+                <a href="about.html">公司简介</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="article.html">新闻中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="product.html">产品中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="contact.html">联系我们</a>
+            </p>
+            <p class="copyright_p">Copyright © 2022 NeuroEchos medical(Shenzhen).All Rights Reserved.&nbsp &nbsp 邮箱：jianping.hu@neurox.cn.com</p>
+        </div>
+
+    </footer>
+    
+    <script type="text/javascript" src="js/common.js"></script>
+    
+    <!--客服面板-->
+    <!--电脑版-->
+    <div id="cmsFloatPanel">
+
+        <div class="ctrolPanel">
+            <a class="service" href="#"></a>
+            <a class="message" href="#"></a>
+            <a class="qrcode" href="#"></a>
+            <a class="arrow" title="返回顶部" href="#top"></a>
+        </div>
+
+        <div class="servicePanel">
+            <div class="servicePanel-inner">
+                <div class="serviceMsgPanel">
+                    <div class="serviceMsgPanel-hd"><a href="#"><span>关闭</span></a></div>
+                    <div class="serviceMsgPanel-bd">
+                        <!--在线QQ-->
+                        <div class="msggroup">
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1719044116&site=qq&menu=yes"><img class="qqimg" src="http://wpa.qq.com/pa?p=2:593036114:52" alt="QQ在线客服" />技术支持</a>
+                        </div>
+                        <!--在线MSN-->
+                        <div class="msggroup">
+                            <a href="" target="blank"><img class="qqimg" src="image/msn.jpg" alt="MSN在线客服" /> 官方</a>
+                        </div>
+                        <!--在线SKYPE-->
+                        <div class="msggroup">
+                            <a href=""><img class="qqimg" src="image/skype.gif" alt="SKYPE在线客服" /> 官方</a>
+                        </div>
+                        <!--淘宝旺旺-->
+                        <div class="msggroup">
+                            
+                        </div>
+                    </div>
+                    <div class="serviceMsgPanel-ft"></div>
+                </div>
+                <div class="arrowPanel">
+                    <div class="arrow02"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="messagePanel">
+            <div class="messagePanel-inner">
+                <div class="formPanel">
+
+                    <div class="formPanel-bd">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_32x32">
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_renren"></a>
+                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
+                        <a type="button" class="btn btn-default btn-xs" href="#" style="margin: 6px 0px 0px 10px;">关闭</a>
+                    </div>
+
+                </div>
+                <div class="arrowPanel">
+                    <div class="arrow01"></div>
+                    <div class="arrow02"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="qrcodePanel">
+            <div class="qrcodePanel-inner">
+                <div class="codePanel">
+                    <div class="codePanel-hd"><span style="float:left">打开手机抖音扫描二维码</span><a href="#"><span>关闭</span></a></div>
+                    <div class="codePanel-bd">
+                        <img src="image/qrcode.png" alt="二维码" />
+                    </div>
+                </div>
+                <div class="arrowPanel">
+                    <div class="arrow01"></div>
+                    <div class="arrow02"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div id="serviceBox" style="display:none">
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1719044116&site=qq&menu=yes"><img class="qqimg" src="http://wpa.qq.com/pa?p=2:593036114:52" alt="QQ在线客服" />技术支持</a>
+    </div>
+
+    <script type="text/javascript" src="js/online.js"></script>
+
+    <!--电脑版 end-->
+
+    <!--手机版-->
+    <nav class="navbar-default navbar-fixed-bottom footer_nav" style="background:#fafafa;">
+        <div class="foot_nav"><a href="javascript:mShare()"><span class="glyphicon glyphicon-share btn-lg" aria-hidden="true"></span>分享</a></div>
+        <div class="foot_nav"><a href="contact.html"><span class="glyphicon glyphicon-phone btn-lg" aria-hidden="true"></span>电话</a></div>
+        <div class="foot_nav" id="serviceBtn"><a onClick="showService()"><span class="glyphicon glyphicon glyphicon-headphones btn-lg" aria-hidden="true"></span>客服</a></div>
+        <div class="foot_nav"><a id="gototop" href="#top"><span class="glyphicon glyphicon-circle-arrow-up btn-lg" aria-hidden="true"></span>顶部</a></div>
+        <div id="mShareBox" style="position: fixed; display: none; z-index: 999; bottom: 47px; width: 100%; height: 45px; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px;">
+            <!-- JiaThis Button BEGIN -->
+            <div class="jiathis_style_m"></div>
+            <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_m.js" charset="utf-8"></script>
+            <!-- JiaThis Button END -->
+        </div>
+    </nav>
+    <!--手机版 end-->
+
+    <script type="text/javascript">
+        function mShare() {
+            $("#mShareBox").toggle();
+            $("#serviceBox").hide();
+        }
+
+        if ($(".banner .slider__wrapper li").length == 0) {
+            $(".banner").addClass("emptyBanner");
+        }
+
+        function showService() {
+            $("#mShareBox").hide();
+            $("#serviceBox").toggle();
+        }
+    </script>
+
+</body>
+</html>
